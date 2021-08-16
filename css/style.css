@@ -263,7 +263,7 @@ footer.footer-pg3-contact{
 /********************************* pag4: login e pag5: register *********************************/
 section.login-register{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     gap: 50px;
     align-items: center;
