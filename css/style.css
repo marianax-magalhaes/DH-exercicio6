@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/************************************ header ************************************/
+header{
+    text-transform: uppercase;
+    background-color:#FFBE51;
+    
+}
+header .header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 50px;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+}
+header .menu ul{
+    list-style-type: none;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+header .menu ul a{
+    text-decoration:none;
+    color: #fff;
+}
+/************************************ banner ************************************/
+section.banner h1{
+    color: #757575;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+section.banner .banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 50px;
+    margin: 50px 0;
+}
+section.banner h1{
+    width:50%
+}
+section.banner img{
+    max-width:100%;
+}
+/************************************ services ************************************/
+section.services{
+    background-color:#E5E5E5;
+    color:#000;
+
+    padding: 50px 0;
+}
+section.services h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding-bottom: 50px;
+}
+section.services h4{
+    margin-top: 25px;
+}
+section.services .services-thumb{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    
+    padding: 0 50px;
+
+    line-height: 0.5;
+}
+/************************************ care ************************************/
+section.care{
+    color:#757575;
+    padding: 50px 0
+}
+section.care img{
+    max-width: 100%;
+}
+section.care .care-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 100px;
+}
+section.care .care-container .txt{
+    width: 50%;
+}
+/************************************ care ************************************/
+footer{
+    text-transform: uppercase;
+    background-color:#FFBE51;
+    line-height: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+}
+footer img.logo-2{
+    width: 300px;
+    max-width: 100%;
+}
+footer .contacts a{
+    text-decoration:none;
+    color: #000;
+}
+footer .adress{
+    margin-top: 50px;
+    
+}
+footer iframe{
+    width: 450px;
+    height: 300px;
+    border: 0;
+}
+
+/************************************ pag2: services ************************************/
+section.pg-services{
+    margin: 100px 0 100px 0;
+}
+section.pg-services h1{
+    text-align: center;
+    color:#FFBE51;
+    font-size: 2.5rem;
+    margin: 0 0 80px 0;
+}
+section.pg-services h2{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+section.pg-services h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+section.pg-services hr{
+    border-top: 2px solid #C4C4C4;
+    margin: 50px auto 50px auto;
+    border-bottom: 0;
+    width: 80%;
+}
+section.pg-services .pg-services-thumb{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+    width: 100%;
+}
+section.pg-services .pg-services-thumb img{
+    width: 266px;
+}
+section.pg-services .pg-services-thumb .pg-services-txt{
+    flex-basis: 50%;
+}
+section.pg-services .pg-services-thumb .pg-services-txt .text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    font-size: 2rem;
+}
+section.pg-services .pg-services-thumb .pg-services-txt button{
+    padding: 10px 100px;
+    background-color: #FFBE51;
+    color: #fff;
+    border: none;
+}
+/************************************ pag3: contact ************************************/
+section.pg3-contact{
+    min-height: 66vh;
+}
+section.pg3-contact h1{
+    color:#FFBE51;
+    font-size:2.5rem;
+    margin: 40px 0 0px 50px;
+}
+section.pg3-contact iframe{
+        width: 600px;
+        height: 250px;
+        max-width: 100%;
+        border: 0;
+}
+section.pg3-contact .pg3-contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 50px;
+}
+section.pg3-contact form{
+    max-width: 100%;
+}
+section.pg3-contact form input, textarea{
+    display: block;
+    padding: 5px;
+    margin: 20px 0;
+
+    width: 550px;
+    max-width: 100%;
+}
+section.pg3-contact form textarea{
+    padding-bottom: 50px;
+}
+section.pg3-contact input.submit{
+    border: none;background-color: #FFBE51;
+    color: white;
+}
+section.pg3-contact .pg3-contact-container .adress{
+    margin: 40px 0;
+}
+section.pg3-contact .pg3-contact-container .contacts,.adress{
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+section.pg3-contact .contacts a{
+    text-decoration:none;
+    color: #000;
+}
+/************************************ footer - pag3,4,5 ************************************/
+footer.footer-pg3-contact{
+    background-color: #C4C4C4;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+    
+}
+/********************************* pag4: login e pag5: register *********************************/
+section.login-register{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 55px;
+
+    min-height: 66vh;
+}
+section.login-register h1{
+    color: #FFC107;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section.login-register .form-login-register{
+    padding: 0 10px;
+    max-width: 100%;
+}
+section.login-register .login-register-box{
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    padding: 20px 60px 50px 60px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+section.login-register img{
+    max-width: 100%;
+}
+section.login-register form input{
+    display: block;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+section.login-register form input.btn-login{
+    background-color: #FFBE51;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+section.login-register form a{
+    text-decoration: none;
+    color: #000;
+}
+section.login-register form p{
+    margin-top: -10px;
+
+}
+
+
+
+
+
+
+
+
+/************************************ media ************************************/
+@media (max-width: 1234px){
+    section.care .care-container{
+        justify-content: center;
+        padding: 50px 50px;
+    }
+    section.care .care-container .txt{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1095px) {
+    section.banner h1{
+        width:100%;
+        text-align: center;
+    }
+    section.banner .banner-container{
+        gap:20px;
+    }
+}
+@media (max-width: 757px) {
+    header .menu ul{
+        display:block;
+        line-height: 2;
+    }
+    footer img.logo-2{
+        width: 150px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 375px){
+    section.login-register .login-register-box {
+        padding: 2px 15px;
+    }
+}
