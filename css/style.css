@@ -230,9 +230,12 @@ section.pg3-contact form input, textarea{
 
     width: 550px;
     max-width: 100%;
+
+    font-family: 'Nunito', sans-serif;
 }
 section.pg3-contact form textarea{
     padding-bottom: 50px;
+    resize: none;
 }
 section.pg3-contact input.submit{
     border: none;background-color: #FFBE51;
@@ -290,6 +293,8 @@ section.login-register form input{
     display: block;
     width: 100%;
     margin: 20px 0 20px 0;
+
+    font-family: 'Nunito', sans-serif;
 }
 section.login-register form input.btn-login{
     background-color: #FFBE51;
